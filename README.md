@@ -22,15 +22,6 @@ Instale as dependências com:
 
 # Script de Execução
 
-```mermaid
-flowchart LR
-
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
 O script `main.py` é responsável por aplicar o filtro à imagem escolhida.
 
 Para executar o script, faça:
@@ -44,11 +35,11 @@ onde:
 
 ao final da execução, o script deve gravar no diretório `out` um arquivo com o seguinte padrão:
 
-    `<filename>.<style>.jpg`
+    <filename>.<style>.jpg
 
 ## Estrutura de Diretórios
 
-```shell
+```
 ├── in
 ├── out
 ├── styles
@@ -64,7 +55,7 @@ Sendo:
 
 Para:
 
-```shell
+```
 ├── in
 │   └── carlos.jpg
 ├── out
@@ -83,7 +74,7 @@ Ao executar:
 
 O resultado será:
 
-```shell
+```
 ├── in
 │   └── carlos.jpg
 ├── out
