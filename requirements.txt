@@ -1,0 +1,4 @@
+matplotlib
+os
+tensorflow
+tensorflow_hub
